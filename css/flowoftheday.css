@@ -1,0 +1,75 @@
+@charset "UTF-8";
+
+
+section.flow_of_the_day div.box {
+  width: 100%;
+  max-width: 1200px;
+  margin-left: auto;
+  margin-right: auto;
+  margin-bottom: 100px;
+}
+
+section.flow_of_the_day div.box h2 {
+  display: block;
+  width: 100px;
+  background-color: #5CE0C0;
+  height: 30px;
+  line-height: 30px;
+  text-align: center;
+  margin-left: auto;
+  margin-right: auto;
+  margin-bottom: 20px;
+}
+
+
+
+
+section.flow_of_the_day div.box div.menu_box {
+  display: flex;
+  justify-content: center;
+    align-items: center;
+}
+
+@media screen and (max-width:480px) {
+  section.flow_of_the_day div.box div.menu_box {
+    display: block;
+    width: 100%;
+  }
+}
+
+
+section.flow_of_the_day div.box div.menu_box img {
+  width: 110%;
+}
+
+@media screen and (max-width:480px) {
+  section.flow_of_the_day div.box div.menu_box img {
+    width: 100%;
+  }
+}
+
+section.flow_of_the_day div.box div.menu_box p {
+  margin-left: 5%;
+  line-height: 30px;
+}
+
+@media screen and (max-width:480px) {
+  section.flow_of_the_day div.box div.menu_box p {
+    width: 90%;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 10px;
+    line-height: 30px;
+    }
+}
+
+section.flow_of_the_day div.box p.arrow {
+  text-align: center;
+  font-size: 250%;
+  color: #5CE0C0;
+  margin-top: 30px;
+}
+
+
+/* タブレット */
+

@@ -1,0 +1,188 @@
+<!DOCTYPE html>
+
+<html>
+
+<head>
+  <meta charset="UTF-8">
+  <title>手作りの指輪で一生の思い出を「EternitY」で。</title>
+  <meta name="description" content="世界に一対だけのふたりだけの結婚指輪・婚約指輪を手作りしませんか？一生の思い出のお手伝いを「EternitY」で。">
+  <meta name="keywords" content="手作り,結婚指輪,婚約指輪">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+  <meta property="og:title" content="手作りの指輪で一生の思い出を「EternitY」で。">
+  <meta property="og:type" content="article">
+  <meta property="og:url" content="https://withcode-plus.tech">
+  <meta property="og:image" content="../img/logo.png">
+  <meta property="og:description" content="世界に一対だけのふたりだけの結婚指輪・婚約指輪を手作りしませんか？一生の思い出のお手伝いを「EternitY」で。">
+  <meta property="og:site_name" content="手作りの指輪">
+  <link rel="icon" href="../favicon.ico">
+  <link rel="apple-touch-icon" sizes="180×180" href="../img/logo.png">
+  <link rel="stylesheet" type="text/css" href="../css/reset.css">
+  <link rel="stylesheet" type="text/css" href="../css/common.css">
+  <link rel="stylesheet" type="text/css" href="../css/reservation.css">
+
+
+
+</head>
+
+<body>
+  <header class="header">
+    <div class="headerNavOuter">
+      <h1 class="siteIcon">
+        <a href="#">
+          <img src="../img/logo.png" alt="ロゴ画像">
+        </a>
+      </h1>
+
+      <!-- ナビゲーション -->
+      <nav class="headerNav">
+        <ul class="navList">
+          <li class="navItem">
+            <a href="../index.html">
+              Home
+            </a>
+          </li>
+          <li class="navItem">
+            <a href="course.html">
+              Cource
+            </a>
+          </li>
+          <li class="navItem">
+            <a href="lineup.html">
+              Line up
+            </a>
+          </li>
+          <li class="navItem">
+            <a href="flowoftheday.html">
+              Flow od the day
+            </a>
+          </li>
+          <li class="navItem">
+            <a href="#">
+              Reservation
+            </a>
+          </li>
+        </ul>
+      </nav>
+
+      <!-- ハンバーガーボタン -->
+      <div class="hamburger_btn" id="js-hamburger">
+        <span class="hamburger_line hamburger_line_1"></span>
+        <span class="hamburger_line hamburger_line_2"></span>
+        <span class="hamburger_line hamburger_line_3"></span>
+      </div>
+
+      <!-- ハンバーガーメニュをクリックした後に現れる半透明の背景-->
+      <div class="black-bg" id="js-black-bg"></div>
+    </div>
+
+    <!-- <div class="reservation_button">
+      <p><a href="../index/reservation.html">来店ご予約</a></p>
+    </div> -->
+  </header>
+  <!-- End header -->
+
+  <main>
+    <section class="pagetop_img">
+      <img src="../img/02_top_img.png">
+      <p>Reservation</p>
+
+    </section>
+
+    <section class="reservation">
+      <div class="sub_title">
+        <p>Reservation</p>
+      </div>
+
+      <form action="../mail.php" id="form" method="POST" class="contact-wrapper__form">
+        <div class="contact-wrapper__form__box">
+          <label for="name" class="contact-wrapper__form__box__ttl">コース</label>
+          <select name="お問い合わせ項目" required="required" class="contact-wrapper__form__box__select">
+            <optgroup value>
+              <option value="プルダウンメニューで問い合わせ内容を選択" hidden class="contact-wrapper__form__box__select__with">コース内容を選択
+              </option>
+              <option value="サイト制作/運用の見積もり" class="contact-wrapper__form__box__select__with">Aコース</option>
+              <option value="システム制作/運用の見積もり" class="contact-wrapper__form__box__select__with">Bコース</option>
+              <option value="その他" class="contact-wrapper__form__box__select__with">Cコース</option>
+            </optgroup>
+          </select>
+        </div>
+        <div class="contact-wrapper__form__box">
+          <label for="name" class="contact-wrapper__form__box__ttl">お名前（漢字）</label>
+          <input type="text" class="contact-wrapper__form__box__input" name="お名前（漢字）" required="required"
+            placeholder="お名前をご入力下さい">
+        </div>
+        <div class="contact-wrapper__form__box">
+          <label for="email" class="contact-wrapper__form__box__ttl">メールアドレス</label>
+          <input type="email" class="contact-wrapper__form__box__input" name="メールアドレス" required="required"
+            placeholder="例）example@example.com">
+        </div>
+        <div class="contact-wrapper__form__box _area">
+          <label for="message" class="contact-wrapper__form__box__ttl">お問い合わせ内容</label>
+          <textarea name="お問い合わせ内容" class="contact-wrapper__form__box__area" id="message" required="required"
+            placeholder="お問い合わせ内容をご入力下さい"></textarea>
+        </div>
+        <button type="submit" class="btn contact-btn">送信する</button>
+      </form>
+    </section>
+
+    <section class="map_box">
+      <div class="sub_title">
+        <p>Access</p>
+      </div>
+
+      <div class="map__area">
+        <iframe
+          src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3240.8280303808788!2d139.76493611525882!3d35.68123618019432!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x60188bfbd89f700b%3A0x277c49ba34ed38!2z5p2x5Lqs6aeF!5e0!3m2!1sja!2sjp!4v1684157112754!5m2!1sja!2sjp"
+          width="600" height="450" style="border:0;" allowfullscreen="" loading="lazy"
+          referrerpolicy="no-referrer-when-downgrade"></iframe>
+      </div>
+
+      <div class="access__box">
+        <img src="../img/access.jpg">
+        <p>住所<br class="nonbr">
+        　愛知県名古屋市<br>
+        <br>
+        TEL<br class="nonbr">
+        　052-000-0000<br>
+        <br>
+        最寄り駅<br class="nonbr">
+        　名古屋駅</p>
+      </div>
+    </section>
+  </main>
+
+  <footer>
+    <section class="linkblock">
+      <ul>
+        <li><a href="../index.html">Top</a></li>
+        <li><a href="course.html">Course</a></li>
+        <li class="sp_border_right_none"><a href="lineup.html">Line up</a></li>
+        <li><a href="topflowoftheday">Top Flow Of The Day</li>
+        <li class="border_right_none"><a href="#">Resevation</a></li>
+      </ul>
+    </section>
+    <section class="copyright">
+      <p>EternitY. All Rights Reseeved.</p>
+    </section>
+  </footer>
+
+
+
+
+
+
+  <!-- ハンバーガーメニューJavaScriptファイルの読み込み -->
+  <script src="../js/common.js"></script>
+
+
+
+  <script src="https://code.jquery.com/jquery-3.4.1.min.js"
+    integrity="sha256-CSXorXvZcTkaix6Yvo6HppcZGetbYMGWSFlBw8HfCJo=" crossorigin="anonymous"></script>
+  <script src="https://cdn.jsdelivr.net/npm/slick-carousel@1.8.1/slick/slick.min.js"></script>
+  <!--自作のJS-->
+  <script src="../js/slider.js"></script>
+
+</body>
+
+</html>
